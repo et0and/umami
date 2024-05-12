@@ -1,9 +1,9 @@
 {
-  "name": "Umami",
-  "description": "Umami is a simple, fast, website analytics alternative to Google Analytics.",
+  "name": "Denki",
+  "description": "Denki is powered by Umami - a simple, fast, website analytics alternative to Google Analytics.",
   "keywords": ["analytics", "charts", "statistics", "web-analytics"],
-  "website": "https://umami.is",
-  "repository": "https://github.com/umami-software/umami",
+  "website": "https://denki.co.nz",
+  "repository": "https://github.com/et0and/umami",
   "addons": ["heroku-postgresql"],
   "env": {
     "APP_SECRET": {
