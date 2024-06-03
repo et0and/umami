@@ -70,7 +70,7 @@ export function LoginForm() {
           </SubmitButton>
         </FormButtons>
       </Form>
-      <p>Don't have an account? <a href="https://buy.stripe.com/14k7vx1xW01ZbF6000">Subscribe to Denki+</a>. Otherwise, <a href="https://billing.stripe.com/p/login/aEU17EaE3cWWbJe9AA">manage you subscription</a>.</p>
+      <p>Don't have an account? <a href="https://buy.stripe.com/14k7vx1xW01ZbF6000">Subscribe to Denki+</a>. Or, <a href="https://billing.stripe.com/p/login/aEU17EaE3cWWbJe9AA">manage your subscription</a>.</p>
     </div>
   );
 }
