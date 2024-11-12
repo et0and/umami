@@ -17,7 +17,7 @@ const trackerScriptName = process.env.TRACKER_SCRIPT_NAME;
 
 const contentSecurityPolicy = [
   `default-src 'self'`,
-  `img-src *`,
+  `img-src * data:`,
   `script-src 'self' 'unsafe-eval' 'unsafe-inline'`,
   `style-src 'self' 'unsafe-inline'`,
   `connect-src 'self' api.umami.is cloud.umami.is`,
@@ -168,7 +168,7 @@ const config = {
         destination: '/api/scripts/telemetry',
       },
       {
-        source: '/teams/:teamId/:path*',
+        source: '/teams/:teamId/:path((?!settings).*)*',
         destination: '/:path*',
       },
     ];
