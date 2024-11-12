@@ -35,6 +35,7 @@ export function LoginForm() {
   };
 
   return (
+    <div className="pt-4"></div>
     <div className={styles.login}>
       <Icon className={styles.icon} size="xl">
         <Logo />
