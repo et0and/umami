@@ -35,7 +35,8 @@ export function LoginForm() {
   };
 
   return (
-    <div className="pt-4"></div>
+    <>
+    <div className="pt-4" />
     <div className={styles.login}>
       <Icon className={styles.icon} size="xl">
         <Logo />
@@ -72,8 +73,9 @@ export function LoginForm() {
         </FormButtons>
         <p>Don't have an account? <a href="https://buy.stripe.com/14k7vx1xW01ZbF6000">Subscribe to Denki+</a>. Or, <a href="https://billing.stripe.com/p/login/aEU17EaE3cWWbJe9AA">manage your subscription</a>.</p>
       </Form>
-      
+
     </div>
+    </>
   );
 }
 
